@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Trebuchet MS';
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(45, 50, 156, 0.408), rgba(33, 7, 150, 0.023)), url("Jinxy.png");
+  background-size: 1550px;
+  background-position: center;
+}
+
+.topbar {
+  width: 100%;
+  padding: 25px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(8, 23, 156, 0.421);
+}
+
+.topbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.topbar ul li::after {
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #de0ebbb3;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.7s;
+}
+
+.topbar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.topbar ul li a:hover {
+  color: #eab0ff;
+}
+
+.topbar ul li:hover::after {
+  width: 100%;
+}
+
+.logo {
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  width: 120px;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.content {
+  width: 100%;
+  color: white;
+}
+
+#beranda h1 {
+  font-size: 69px;
+  margin-top: 80px;
+}
+
+#beranda p {
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Trebuchet MS';
+  font-size: 18px;
+  width: 200px;
+  margin: 20px 10px;
+  padding: 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background: transparent;
+  border: 3px solid #2740ff;
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+button span {
+  height: 100%;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  position: absolute;
+  border-radius: 10px;
+  background: #2740ff;
+  transition: 0.5s;
+}
+
+button:hover span {
+  width: 100%;
+}
+
+button:hover {
+  border: none;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+nav ul li a:hover {
+  color: #055296;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+section {
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  min-height: 800px;
+}
+
+#profil {
+  background-image: url(red3.png);
+}
+
+#audio-video {
+  background-image: url(enemy121.png);
+}
+
+#tentang {
+  background-image: url(words.png);
+}
+
+#berita {
+  background-image: url(Jinxx.png);
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#tentang h2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  text-align: right;
+}
+
+#tentang p {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-right: 0;
+  text-align: right;
+}
+
+#profil {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  text-align: left;
+}
+
+#profil h2 {
+  width: 100%;
+  text-align: left;
+}
+
+#profil p {
+  width: 100%;
+  text-align: left;
+}
+
+#profil img {
+  width: 75%;
+  text-align: left; 
+}
+
+.profile-table {
+  width: 100%;
+  max-width: 800px; 
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.profile-table td {
+  padding: 10px;
+}
+
+.profile-table td a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
