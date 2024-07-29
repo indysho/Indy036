@@ -8,7 +8,8 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(45, 50, 156, 0.408), rgba(33, 7, 150, 0.023)), url("Jinxy.png");
+  background-image: linear-gradient(rgba(8, 12, 98, 0.615),
+   rgba(201, 109, 207, 0.532)), url("Jinxy.png");
   background-size: 1550px;
   background-position: center;
 }
@@ -87,8 +88,6 @@ button {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: 'Trebuchet MS';
-  font-size: 18px;
   width: 200px;
   margin: 20px 10px;
   padding: 15px 0;
@@ -154,8 +153,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #055296;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(217, 42, 42, 0);
 }
 
 section {
